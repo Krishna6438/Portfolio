@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
-import me from "/Users/krishnasharma/Desktop/Portfolio/src/assets/Me.png"
+// import me from "/Users/krishnasharma/Desktop/Portfolio/src/assets/Me.png"
+import me from '../assets/Me.png';
 
 const HERO_CONTENT = `I am an enthusiastic college student with a solid understanding of full-stack development, including front-end technologies like React and Next.js, as well as back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. While I am still building on my practical experience, I am eager to apply my knowledge to develop innovative web applications and gain hands-on experience that can contribute to creating exceptional user experiences. `;
 

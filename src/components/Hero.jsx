@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import me from "/Users/krishnasharma/Desktop/Portfolio/src/assets/Me.png"
 
 const HERO_CONTENT = `I am an enthusiastic college student with a solid understanding of full-stack development, including front-end technologies like React and Next.js, as well as back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. While I am still building on my practical experience, I am eager to apply my knowledge to develop innovative web applications and gain hands-on experience that can contribute to creating exceptional user experiences. `;
 
@@ -31,7 +32,14 @@ const Hero = () => {
                 <div className='w-full lg:w-1/2'>
 
                     <div className='flex justify-center lg:p-10'>
-                        <motion.img className='border border-stone-900 rounded-3xl ' />
+                        <motion.img className=' rounded-3xl  'src={me}
+                        alt="Krishna Sharma"
+                        width={550}
+                        height={50}
+                        initial={{x:100, opacity:0}}
+                        animate={{x:0, opacity:1}}
+                        transition={{duration: 1,delay:1.5}} />
+                        
                     </div>
 
                 </div>
